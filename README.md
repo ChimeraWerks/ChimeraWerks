@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" alt="Chimera Werks" width="240" />
+  <img src="chimerawerks-logo.png" alt="Chimera Werks" width="240" />
 </p>
 
 <h1 align="center">Chimera Werks</h1>
