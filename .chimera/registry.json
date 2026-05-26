@@ -16,13 +16,15 @@
   },
   "query": {
     "repo_slice_args": [
-      "for-repo",
+      "bootstrap",
       "--repo-path",
       "."
     ],
     "commands": {
-      "powershell": "python (Join-Path $env:CHIMERA_REGISTRY_ROOT 'scripts/registry_query.py') for-repo --repo-path .",
-      "bash": "python \"$CHIMERA_REGISTRY_ROOT/scripts/registry_query.py\" for-repo --repo-path ."
+      "powershell": "python ../Chimera-Registry/scripts/registry_query.py bootstrap --repo-path .",
+      "bash": "python ../Chimera-Registry/scripts/registry_query.py bootstrap --repo-path .",
+      "powershell_env_root": "python (Join-Path $env:CHIMERA_REGISTRY_ROOT 'scripts/registry_query.py') bootstrap --repo-path .",
+      "bash_env_root": "python \"$CHIMERA_REGISTRY_ROOT/scripts/registry_query.py\" bootstrap --repo-path ."
     }
   },
   "notes": [
