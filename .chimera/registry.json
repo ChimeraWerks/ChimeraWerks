@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "kind": "chimera_registry_link",
+  "registry": {
+    "github_full_name": "ChimeraWerks/Chimera-Registry",
+    "root_env": "CHIMERA_REGISTRY_ROOT",
+    "query_script": "scripts/registry_query.py",
+    "query_contract": "docs/registry/query-contract.md"
+  },
+  "repo": {
+    "id": "repo.chimerawerks",
+    "name": "ChimeraWerks",
+    "github_full_name": "chimerawerks/chimerawerks",
+    "origin_slug": "chimerawerks/chimerawerks",
+    "status": "active"
+  },
+  "query": {
+    "repo_slice_args": [
+      "for-repo",
+      "--repo-path",
+      "."
+    ],
+    "commands": {
+      "powershell": "python (Join-Path $env:CHIMERA_REGISTRY_ROOT 'scripts/registry_query.py') for-repo --repo-path .",
+      "bash": "python \"$CHIMERA_REGISTRY_ROOT/scripts/registry_query.py\" for-repo --repo-path ."
+    }
+  },
+  "notes": [
+    "This file is a pointer only. The canonical registry remains in Chimera-Registry.",
+    "Do not copy registry data, raw secrets, or local absolute paths into this repo."
+  ],
+  "source": {
+    "provenance": "generated",
+    "locator": "scripts/registry_link_repo.py"
+  }
+}
