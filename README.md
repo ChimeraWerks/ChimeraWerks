@@ -1,102 +1,104 @@
-<p align="center">
-  <img src="chimerawerks-logo.png" alt="Chimera Werks" width="220" />
-</p>
+<div align="center">
 
-<h1 align="center">Chimera Werks</h1>
+<img src="chimerawerks-logo.png" width="220" alt="Chimera Werks logo" />
 
-<p align="center">
-  <strong>Local-first AI infrastructure for creative media, agent memory, and autonomous workflows.</strong>
-</p>
+# Chimera Werks
 
-<p align="center">
-  <a href="https://chimerawerks.com">Website</a>
-  &nbsp;|&nbsp;
-  <a href="mailto:hello@chimerawerks.com">Contact</a>
-  &nbsp;|&nbsp;
-  <a href="AGENTS.md">Agent Guide</a>
-</p>
+<a href="https://chimerawerks.com"><img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=22&duration=3500&pause=900&color=38BDF8&center=true&vCenter=true&width=640&height=55&lines=Local-first%20AI%20infrastructure;I%20build%20agent%20memory%2C%20then%20forget%20where%20I%20put%20it;Security%20consultant%2C%20reformed%20only%20on%20paper;35%2B%20repos%2C%20all%20named%20Chimera.%20I%20have%20a%20problem." alt="Things I build and say" /></a>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/local--first-systems-111827?style=flat-square" alt="local-first systems" />
-  <img src="https://img.shields.io/badge/structured-metadata-334155?style=flat-square" alt="structured metadata" />
-  <img src="https://img.shields.io/badge/agent-memory-3f3f46?style=flat-square" alt="agent memory" />
-  <img src="https://img.shields.io/badge/creative-infrastructure-0f766e?style=flat-square" alt="creative infrastructure" />
-</p>
+[![Website](https://img.shields.io/badge/Website-chimerawerks.com-0EA5E9?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chimerawerks.com)
+[![Email](https://img.shields.io/badge/Email-hello@chimerawerks.com-334155?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hello@chimerawerks.com)
+[![Agent Guide](https://img.shields.io/badge/Agent_Guide-AGENTS.md-6366F1?style=for-the-badge&logo=markdown&logoColor=white)](AGENTS.md)
+![Profile Views](https://komarev.com/ghpvc/?username=ChimeraWerks&style=for-the-badge&color=0EA5E9&label=PROFILE+VIEWS)
+
+</div>
 
 ---
 
-## Studio
+### Hey 👋
 
-Chimera Werks builds tools for the moment when AI work stops being a prompt and becomes a library, a workflow, a memory system, and eventually an operating environment.
+I'm the person behind Chimera Werks, a one-person studio that quietly got out of hand. The name fits: a chimera is one animal built from parts that shouldn't go together, which is roughly my career. AI infrastructure on Monday, breaking into things (with permission) on Tuesday, building adult games on the weekend.
 
-Most generation tools optimize for the next output. We focus on everything after that: finding the thing you made, preserving how it was made, turning metadata into something searchable, and giving humans and agents enough context to keep moving.
+Most of it's local-first, because I'd rather not trust someone else's cloud to remember my work for me. The naming convention is non-negotiable and I won't be taking questions.
 
-We work across four connected layers:
+## The three heads
 
-| Layer | What it means |
+### 🐐 The engineer
+
+Builds the tools the other two heads make messes with. Agent memory, local registries, CLI plumbing, and more MCP servers than is strictly healthy.
+
+| Project | What it does |
 |---|---|
-| Creative media systems | Local-first tools for browsing, indexing, generating, and reusing AI media. |
-| Agent infrastructure | Memory, skills, research, queues, and operating maps for long-running AI work. |
-| Private registries | Ports, services, APIs, MCPs, connectors, commands, and internal surfaces kept organized without leaking secrets. |
-| Human-grade interfaces | Fast, legible tools designed for people doing real work at scale. |
+| [Chimera-Memory](https://github.com/ChimeraWerks/Chimera-Memory) | Perfect recall for coding agents. Indexes Claude Code session transcripts into queryable SQLite. |
+| [ai.accelerators](https://github.com/ChimeraWerks/ai.accelerators) | Gets Python 3.12 environments up and running faster. |
+| [ChimeraQuant](https://github.com/ChimeraWerks/ChimeraQuant) `archived` | A workbench for quantizing AI models across formats. |
 
-## Flagship
+🔒 In the private lab: Chimera-Ports, Chimera-Registry, Chimera-Library, Chimera-Wiki, Chimera-Hermes.
 
-### Chimera Studio
+### 🦁 The creator
 
-A local-first media platform for large AI creative libraries.
+Makes the media and the games. Local-first creative tooling, a metadata-obsessed media library, and 18+ interactive titles. Yes, that kind. No, you can't see the repos.
 
-Chimera Studio extracts, decomposes, and indexes workflow metadata from AI-generated images, video, and audio, then serves it through a fast browser UI. It is built around the belief that prompts, models, LoRAs, samplers, seeds, schedulers, node graphs, and sidecar metadata should be queryable fields, not mystery blobs buried in files.
+| Project | What it does |
+|---|---|
+| [LTX-Desktop](https://github.com/ChimeraWerks/LTX-Desktop) | Desktop app for generating video with LTX models. |
 
-The current product is private while it is still evolving, but it anchors the studio thesis: creative momentum depends on being able to find, understand, and reuse what you have already made.
+🔒 In the private lab: Chimera Studio (AI media library), ProjectChimera (a game built in Godot), Chimera-Deckbuilder, and a music-generation rig.
 
-## Public Work
+### 🐍 The operator
 
-| Project | What it is | Built for |
-|---|---|---|
-| [`Chimera-Memory`](https://github.com/ChimeraWerks/Chimera-Memory) | MCP memory server for transcript indexing and curated recall | Agents that need queryable session memory |
-| [`LTX-Desktop`](https://github.com/ChimeraWerks/LTX-Desktop) | Desktop app for generating videos with LTX models | Local video generation workflows |
-| [`audio-adversarial-toolkit`](https://github.com/ChimeraWerks/audio-adversarial-toolkit) | CLI for adversarial audio robustness testing | Audio fingerprinting and copyright-detection research |
-| [`ai.accelerators`](https://github.com/ChimeraWerks/ai.accelerators) | Python environment accelerators | Faster local AI setup |
-| [`ChimeraQuant`](https://github.com/ChimeraWerks/ChimeraQuant) | Archived model quantization workbench | Earlier quantization research |
-| [`ChimeraWerks.com`](https://github.com/ChimeraWerks/ChimeraWerks.com) | Public site | Studio presence |
+The security head. I get paid to break into things I'm allowed to break into, then write up exactly how I did it. Snakes felt appropriate.
 
-## Private Lab
+| Project | What it does |
+|---|---|
+| [audio-adversarial-toolkit](https://github.com/ChimeraWerks/audio-adversarial-toolkit) `archived` | Hides inaudible adversarial data in audio files to test copyright-detection systems. |
 
-Much of the active Chimera ecosystem is private because it contains operational details, unfinished product systems, security-sensitive infrastructure, or personal workflow context.
+🔒 In the private lab: ChimeraBreach, a full-spectrum penetration-testing knowledge base.
 
-Current private work includes:
+## Stack I reach for
 
-- **Chimera Studio** for AI media libraries and metadata decomposition.
-- **ChimeraGPT** for ChatGPT Apps SDK and MCP-backed task queues.
-- **Chimera Library** for shared skills, playbooks, and agent instruction assets.
-- **Chimera Research** for local-first research pipelines and evidence packs.
-- **Chimera Personas** and **PersonifyAgents** for persistent, person-shaped AI teammates.
-- **Chimera Lock** for shared passkey/WebAuthn access boundaries.
-- **Chimera Registry** for private operational maps across repos, ports, APIs, MCPs, connectors, skills, commands, and web surfaces.
+**Languages**
 
-## Principles
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge)
+![GDScript](https://img.shields.io/badge/GDScript-478CBF?style=for-the-badge&logo=godotengine&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-- **Local-first when it matters.** Creative libraries, memory, and operational context should not require a cloud round trip to stay useful.
-- **Metadata is product surface.** If a field helps you find, compare, rebuild, or understand an artifact, it deserves structure.
-- **Agents need maps.** Autonomous work gets safer when repos explain ownership, boundaries, commands, and validation.
-- **Speed is a feature.** Interfaces should keep up with the pace of creative and agent-assisted work.
-- **Private does not mean careless.** Internal registries can hold sensitive maps, but raw secrets belong in secret stores, not git.
+**AI & agents**
 
-## For Agents
+![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![Codex](https://img.shields.io/badge/Codex-412991?style=for-the-badge)
+![MCP](https://img.shields.io/badge/MCP-1E293B?style=for-the-badge)
+![ComfyUI](https://img.shields.io/badge/ComfyUI-1E293B?style=for-the-badge)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
-This profile repo also acts as a public, sanitized navigation point for future agents.
+**Infra**
 
-- Start with [`AGENTS.md`](AGENTS.md).
-- Use [`docs/agents/repo-map.md`](docs/agents/repo-map.md) for the public ecosystem map.
-- Use the private `Chimera-Registry` repo for operational details when you have access.
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+![Passkeys](https://img.shields.io/badge/Passkeys%20%2F%20WebAuthn-1E293B?style=for-the-badge)
+
+## Things I'll mention whether you ask or not
+
+- 🛠️ Building Chimera Studio right now, a local-first home for oversized AI media libraries.
+- 🤖 ChimeraTrader is a day-trading bot I wrote. Either algorithmic genius or an expensive apology. The jury is out.
+- ✈️ Planning a solo Japan and Korea trip. The planning repo has more commits than my itinerary has actual plans.
+- 🔐 I break into systems for a living. Legally. Please don't make it weird.
+- 🧬 35+ repos, one naming convention, exactly zero regrets.
+
+## For the agents reading this
+
+This profile doubles as a map. If you're an AI agent poking through my repos, start with [AGENTS.md](AGENTS.md) and the public [repo map](docs/agents/repo-map.md). They spell out ownership, boundaries, and what's safe to touch, so nobody has to guess.
 
 ---
 
-<p align="center">
-  <a href="mailto:hello@chimerawerks.com"><strong>hello@chimerawerks.com</strong></a>
-</p>
+<div align="center">
 
-<p align="center">
-  <sub>Chimera Werks - 2026</sub>
-</p>
+Say hi: **[hello@chimerawerks.com](mailto:hello@chimerawerks.com)**
+
+<sub>Three heads, two hands, one very patient keyboard.</sub>
+
+</div>
