@@ -10,6 +10,7 @@ Start with root `AGENTS.md`. Read these files only when relevant.
 - `boundaries.md` - responsibility boundaries for this profile/map repo
 - `validation.md` - validation order and what each check proves
 - `security.md` - public profile, private repo, path, and sensitive-detail handling
+- `instruction-policy.md` - where a rule lives, when to edit an instruction file, and the gate that enforces it
 
 ## Routing
 
@@ -19,4 +20,5 @@ Start with root `AGENTS.md`. Read these files only when relevant.
 | Refreshing the repo list | `commands.md`, then `repo-map.md` |
 | Changing README/profile structure | `boundaries.md`, then `validation.md` |
 | Adding details about private, security, auth, shell, path, or browser behavior | `security.md` |
+| Adding, changing, or deleting any instruction line | `instruction-policy.md` |
 | Final review before handoff | `validation.md` |

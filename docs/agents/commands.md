@@ -28,6 +28,12 @@ git status --short --branch
 
 ## Docs Validation
 
+Run the instruction-architecture gate (hard-fails on dead routed `.md` paths and banned generic phrases; size past 120 lines / 1500 words is advisory only):
+
+```powershell
+pwsh scripts/check-agents-md.ps1
+```
+
 Check for whitespace errors:
 
 ```powershell
