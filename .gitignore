@@ -1,0 +1,15 @@
+# Profile repo: publish only what github.com/ChimeraWerks renders.
+# Everything else stays local.
+/*
+!/.gitignore
+!/README.md
+# Loaded by the ChimeraWerks.com README via raw URL
+!/chimerawerks-logo.png
+
+!/assets/
+/assets/*
+!/assets/dgx-spark-thermal.gif
+!/assets/shikigami.svg
+!/assets/chimera-studio-vault.jpg
+# Previous spark image, kept in reserve
+!/assets/dgx-spark-cutaway.png
