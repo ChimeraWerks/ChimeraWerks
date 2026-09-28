@@ -39,18 +39,6 @@ Open source under Apache-2.0.
 
 <br clear="right">
 
-### 🎬 Chimera Studio
-
-*My full pipeline for image and video generation, and for keeping everything it makes organized.*
-
-<p align="center"><img src="assets/chimera-studio-vault.jpg" width="620" alt="Chimera Studio Vault: a grid of generated videos with filters on the left and, on the right, the selected clip's sampler, seed, LoRAs, generation time, peak VRAM and per-node timings"></p>
-
-- **Vault**: scans every folder of generated media, pulls the workflow, prompt and model out of each file, and makes years of output searchable and taggable.
-- **Image and video workbenches**: browse and run versioned ComfyUI workflows with the models, LoRAs and recipes they need, including MiniMax H3 video.
-- **Custom node manager**: shows every installed node, where it came from and which workflows use it, and warns before an update breaks one.
-
-**private · primary product · used every day**
-
 ### ⛩️ Shikigami
 
 *One daemon that lets any AI harness drive any other.*
@@ -62,6 +50,18 @@ Shikigami runs a resident daemon with a single MCP surface registered in every h
 It drives the real, headed desktop apps rather than headless terminal sessions. Every turn plays out in a window you can watch, and each app keeps its desktop-only features: artifacts, previews, attachments and its own tools. Every call has a named owner, every reply is saved with a hash, and nothing ever closes the app you're working in.
 
 **private · running daily**
+
+### 🎬 Chimera Studio
+
+*My full pipeline for image and video generation, and for keeping everything it makes organized.*
+
+<p align="center"><img src="assets/chimera-studio-vault.jpg" width="620" alt="Chimera Studio Vault: a grid of generated videos with filters on the left and, on the right, the selected clip's sampler, seed, LoRAs, generation time, peak VRAM and per-node timings"></p>
+
+- **Vault**: scans every folder of generated media, pulls the workflow, prompt and model out of each file, and makes years of output searchable and taggable.
+- **Image and video workbenches**: browse and run versioned ComfyUI workflows with the models, LoRAs and recipes they need, including MiniMax H3 video.
+- **Custom node manager**: shows every installed node, where it came from and which workflows use it, and warns before an update breaks one.
+
+**private · primary product · used every day**
 
 ## Stack I reach for
 
