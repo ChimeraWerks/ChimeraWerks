@@ -24,7 +24,7 @@ Most of it runs on hardware on my desk, because I'd rather not trust someone els
 
 *Plan, serve and watch AI models on your NVIDIA DGX Spark and GB10 cluster.*
 
-<img src="assets/dgx-spark-cutaway.png" width="380" align="right" alt="sparkKitchen 3D lab: cutaway of a DGX Spark with live heat and airflow simulation">
+<img src="assets/dgx-spark-thermal.gif" width="380" align="right" alt="sparkKitchen 3D lab: thermal vision view of a DGX Spark with live heat and airflow simulation">
 
 I run three DGX Sparks, and sparkKitchen is the dashboard I built to keep an eye on them. It lives on your desktop, checks in on every node over SSH, and never installs or changes anything on the cluster.
 
