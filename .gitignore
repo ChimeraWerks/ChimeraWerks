@@ -8,8 +8,13 @@
 
 !/assets/
 /assets/*
-!/assets/dgx-spark-thermal.gif
-!/assets/shikigami.svg
+!/assets/sparkkitchen-banner.webp
+!/assets/sparkkitchen-3d-lab.webp
+!/assets/sparkkitchen-3d-lab.jpg
+!/assets/shikigami-banner.webp
+!/assets/shikigami-summoning.webp
+!/assets/chimerawerks-mark.png
 !/assets/chimera-studio-vault.jpg
+!/assets/chimera-studio-banner.webp
 # Previous spark image, kept in reserve
 !/assets/dgx-spark-cutaway.png
